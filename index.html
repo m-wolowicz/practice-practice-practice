@@ -2,34 +2,67 @@
 <html lang="en-US">
 
 <head>
+	<!-- Specify the character encoding for the HTML document. -->
 	<meta charset="UTF-8">
-	<meta name="description" content="Practice Files">
-	<meta name="keywords" content="HTML,CSS,JavaScript">
-	<meta name="author" content="MW">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Specify the name of the author of the document. -->
+	<meta name="author" content="Melissa Wolowicz">
+	<!-- Specify a description of the page. Search engines can pick up this description to show with the results of searches.  -->
+	<meta name="description" content="Starter code for practice">
+	<!-- Specify a comma-separated list of keywords - relevant to the page (Informs search engines what the page is about). -->
+	<meta name="keywords" content="HTML, CSS, JavaScript, Practice, Code">
+	<!-- Controls the viewport (the user's visible area of a web page). -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Practice Practice Practice</title>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="assets/js/script.js"></script>
+	<title>HTML CSS Javascript Practice</title>
 
-	<noscript>Your browser does not support JavaScript!</noscript>
+	<!-- EXTERNAL LINKS -->
+	<!-- Roboto Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">	
+	<!-- Google Material Design -->
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<!-- My Own CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+	<!-- Internal Style Sheet -->
 	<style>
 		body {
 			background-color: white;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			position: absolute;
 			}
 	</style>
 
+	<!-- EXTERNAL SCRIPTS -->
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Google Material Design Javascript -->
+	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<!-- My Own Javascript -->
+	<script src="assets/js/script.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-	
-
+	<!-- Define alternate content for users that have disabled or don't support scripts in their browser. -->
+	<noscript>Your browser does not support JavaScript!</noscript>
 
 </head>
 
 <body>
 	<!-- THIS IS A COMMENT -->
+
+	<!-- GMD TOP APP BAR -->
+	<header class="mdc-top-app-bar">
+		<div class="mdc-top-app-bar__row">
+			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+				<a href="#" class="material-icons mdc-top-app-bar__navigation-icon">menu</a>
+				<span class="mdc-top-app-bar__title">Practice, Practice, Practice</span>
+			</section>
+		</div>
+	</header>
+
 
 	<h1>Heading 1</h1>
 	<h2>Heading 2</h2>
@@ -39,6 +72,61 @@
 	<h6>Heading 6</h6>
 	<p style="color: rgba(0, 0, 0, .87);;">This is a paragraph</p>
 
+
+	<button class="mdc-button">
+		<span class="mdc-button__label">button</span>
+	</button>
+	<br>
+		<button class="mdc-icon-button material-icons">favorite</button>
+
+		<br>
+
+		<div class="mdc-card">
+				<!-- ... content ... -->
+			  </div>
+
+			  <div class="mdc-chip-set">
+					<div class="mdc-chip" tabindex="0">
+					  <div class="mdc-chip__text">Chip content</div>
+					</div>
+					...
+				  </div>
+
+				  <div class="mdc-grid-list">
+						<ul class="mdc-grid-list__tiles">
+						  <li class="mdc-grid-tile">
+							<div class="mdc-grid-tile__primary">
+							  <img class="mdc-grid-tile__primary-content" src="my-image.jpg" />
+							</div>
+							<span class="mdc-grid-tile__secondary">
+							  <span class="mdc-grid-tile__title">Title</span>
+							</span>
+						  </li>
+						  <li class="mdc-grid-tile">
+							<div class="mdc-grid-tile__primary">
+							  <img class="mdc-grid-tile__primary-content" src="my-image.jpg" />
+							</div>
+							<span class="mdc-grid-tile__secondary">
+							  <span class="mdc-grid-tile__title">Title</span>
+							</span>
+						  </li>
+						</ul>
+					  </div>
+
+
+
+
+					  <ul class="mdc-image-list my-image-list">
+							<li class="mdc-image-list__item">
+							  <div class="mdc-image-list__image-aspect-container">
+								<img class="mdc-image-list__image" src="...">
+							  </div>
+							  <div class="mdc-image-list__supporting">
+								<span class="mdc-image-list__label">Text label</span>
+							  </div>
+							</li>
+							...
+						  </ul>
 </body>
 
 </html>
