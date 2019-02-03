@@ -37,53 +37,99 @@
 	<!-- My Own Javascript -->
 	<script src="assets/js/script.js"></script>
 </head>
-<body>
-	<!-- THIS IS A COMMENT -->
+<body style="background-color: #F5F5F5;">
+	<!-- NAVBAR KITCHEN SINK -->
+	<div class="container-fluid">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="assets/img/KatennaBotRGB.svg" width="30" height="30" class="d-inline-block align-top" alt="">   PRACTICE
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<!-- JUMBOTRON -->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+				<h1 class="display-4">Hello, world!</h1>
+				<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+				<hr class="my-4">
+				<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		</div>
+	</div>
+
+	<!-- PAGE CONTENT -->
 	<div class="container-fluid">
 		<div class="container">
-
-
-
-			<h1>Heading 1</h1>
+			<h1>Heading 1: Block Level Elements</h1>
 			<h2>Heading 2</h2>
 			<h3>Heading 3</h3>
 			<h4>Heading 4</h4>
 			<h5>Heading 5</h5>
-			<h6>Heading 6</h6><p style="color: rgba(0, 0, 0, .87);;">Morbi ipsum lectus, iaculis eget elit eu, egestas semper metus. Vestibulum quis rutrum mauris, eu vehicula eros. Maecenas sit amet aliquam libero. Quisque ac felis non enim auctor semper. Integer vel tempus ex, sed auctor neque. Curabitur eu arcu sit amet mi euismod placerat. Donec vehicula, augue quis ornare pharetra, ex felis faucibus dolor, at gravida ante urna posuere mi. Nunc non egestas dolor, id pulvinar risus. Vivamus id ligula ac orci euismod mattis nec id lacus. Phasellus id cursus lorem.</p>
+			<h6>Heading 6</h6>
+			<p style="color: rgba(0, 0, 0, .87);;">Morbi ipsum lectus, iaculis eget elit eu, egestas semper metus. Vestibulum quis rutrum mauris, eu vehicula eros. Maecenas sit amet aliquam libero. Quisque ac felis non enim auctor semper. Integer vel tempus ex, sed auctor neque. Curabitur eu arcu sit amet mi euismod placerat. Donec vehicula, augue quis ornare pharetra, ex felis faucibus dolor, at gravida ante urna posuere mi. Nunc non egestas dolor, id pulvinar risus. Vivamus id ligula ac orci euismod mattis nec id lacus. Phasellus id cursus lorem.</p>
 			<p title="I'm a tooltip">Proin tortor diam, imperdiet nec ligula ut, luctus semper sem. Vestibulum sed elit sem. Phasellus vel risus in nulla imperdiet ultricies ac sit amet nibh. Duis cursus felis vel lectus condimentum, quis maximus sem fermentum. Sed molestie orci ac quam congue tincidunt quis id diam. Mauris consectetur magna ac rutrum maximus. Vivamus quis semper lorem. Duis congue lectus nec tortor vulputate consectetur. Sed ac turpis et magna scelerisque pulvinar in ac tellus. Etiam ac aliquet risus, a dictum mauris. Duis at varius enim. Suspendisse vitae risus nec odio molestie sollicitudin. Fusce venenatis fermentum ultricies.</p>
 			<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
 			<p>Here is a quote from WWF's website:</p>
+			<a href="#clickMeBtn">Jump to Chapter 4</a>
+
+			<blockquote cite="http://www.worldwildlife.org/who/index.html">
+			For 50 years, WWF has been protecting the future of nature.
+			The world's leading conservation organization,
+			WWF works in 100 countries and is supported by
+			1.2 million members in the United States and
+			close to 5 million globally.
+			</blockquote>
+			<address>
+			Written by John Doe.<br> 
+			Visit us at:<br>
+			Example.com<br>
+			Box 564, Disneyland<br>
+			USA
+			</address>
+
+			<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+			<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+			<bdo dir="rtl">This text will be written from right to left</bdo>
 
 
-
-
-
-	
-	<a href="#clickMeBtn">Jump to Chapter 4</a>
-	
-	<blockquote cite="http://www.worldwildlife.org/who/index.html">
-	For 50 years, WWF has been protecting the future of nature.
-	The world's leading conservation organization,
-	WWF works in 100 countries and is supported by
-	1.2 million members in the United States and
-	close to 5 million globally.
-	</blockquote>
-	<address>
-		Written by John Doe.<br> 
-		Visit us at:<br>
-		Example.com<br>
-		Box 564, Disneyland<br>
-		USA
-		</address>
-	
-	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-	
-	<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-	
-	<bdo dir="rtl">This text will be written from right to left</bdo>
-	
-	
-		<b> - Bold text</b>
+			<b> - Bold text</b>
 			<strong> - Important text</strong>
 			<i> - Italic text</i>
 			<em> - Emphasized text</em>
@@ -93,97 +139,88 @@
 			<ins> - Inserted text</ins>
 			<sub> - Subscript text</sub>
 			<sup> - Superscript text</sup>
-		<pre>
+			<pre>
 			My Bonnie lies over the ocean.
-		
+
 			My Bonnie lies over the sea.
-		
+
 			My Bonnie lies over the ocean.
-		
+
 			Oh, bring back my Bonnie to me.
-		</pre>
-		<a href="https://www.google.com" target="_blank">This is a link</a>
-		<br>
-		<div class="material-icons">favorite</div>
-		<br>
-		<!-- PLAY WITH IMAGE MAP -->
-		<!-- PLAY WITH <PICTURE></PICTURE> -->
-		<img src="assets/img/KatennaBotRGB.svg" alt="Katenna Bot" width="100">
-		<br>
-		<ul>
+			</pre>
+			<a href="https://www.google.com" target="_blank">This is a link</a>
+			<br>
+			<div class="material-icons">favorite</div>
+			<br>
+			<!-- PLAY WITH IMAGE MAP -->
+			<!-- PLAY WITH <PICTURE></PICTURE> -->
+			<img src="assets/img/KatennaBotRGB.svg" alt="Katenna Bot" width="100">
+			<br>
+			<ul>
 			<li>This</li>
 			<li>Is</li>
 			<li>A</li>
 			<li>List</li>
-		</ul>
-		<ol>
+			</ul>
+			<ol>
 			<li>Coffee</li>
 			<li>Tea</li>
 			<li>Milk</li>
-		</ol>
-		<dl>
+			</ol>
+			<dl>
 			<dt>Coffee</dt>
 			<dd>- black hot drink</dd>
 			<dt>Milk</dt>
 			<dd>- white cold drink</dd>
-		</dl>
-		<table>
-				<thead>
-					<tr>
-						<th>Month</th>
-						<th>Savings</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>January</td>
-						<td>$100</td>
-					</tr>
-					<tr>
-						<td>February</td>
-						<td>$80</td>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<td>Sum</td>
-						<td>$180</td>
-					</tr>
-				</tfoot>
+			</dl>
+			<table>
+			<thead>
+			<tr>
+			<th>Month</th>
+			<th>Savings</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td>January</td>
+			<td>$100</td>
+			</tr>
+			<tr>
+			<td>February</td>
+			<td>$80</td>
+			</tr>
+			</tbody>
+			<tfoot>
+			<tr>
+			<td>Sum</td>
+			<td>$180</td>
+			</tr>
+			</tfoot>
 			</table>
-			
-	<hr>
-	<button id="clickMeBtn">Click me</button>
-	<br>
-	<br>
-	<br>
-	<hr>
-	<article>BLOCK LEVEL ELEMENTS</article>
-	<aside>aside</aside>
-	<canvas>canvas</canvas>
-	<div>div</div>
-	<fieldset>fieldset</fieldset>
-	
-	<figure>figuere<figcaption>figcaption</figcaption></figure>
-	<footer>footer</footer>
-	<form>form</form>
-	
-	<header>header</header>
-	
-	<main>main</main>
-	<nav>nav</nav>
-	<noscript>noscript</noscript>
-	<output>output</output>
-	<section>section</section>
-	
-	
-	<video></video>
-
-
-
-
+			<hr>
+			<button id="clickMeBtn">Click me</button>
+			<br>
+			<br>
+			<br>
+			<hr>
+			<article>BLOCK LEVEL ELEMENTS</article>
+			<aside>aside</aside>
+			<canvas>canvas</canvas>
+			<div>div</div>
+			<fieldset>fieldset</fieldset>
+			<figure>figuere<figcaption>figcaption</figcaption></figure>
+			<footer>footer</footer>
+			<form>form</form>
+			<header>header</header>
+			<main>main</main>
+			<nav>nav</nav>
+			<noscript>noscript</noscript>
+			<output>output</output>
+			<section>section</section>
+			<video>Insert Video Here</video>
 		</div>
 	</div>
+
 
 <!-- JQUERY POPPER AND JS FOR BOOTSTRAP -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
