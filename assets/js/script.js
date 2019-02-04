@@ -94,5 +94,54 @@ console.log(drinks);
 
 // FOR LOOP
 for (var i = 0; i < drinks.length; i++) {
-    console.log("I love " + drinks[i]);
+    console.log(drinks[i].toLowerCase() + " is number " + i + " in the array of drinks");
+  } 
+
+//   same as
+  drinks.forEach(function(drink){
+      console.log(drink);
+  });
+
+  // We can also do this with a function.
+  function logArray(list) {
+    for (var j = 0; j < list.length; j++) {
+      console.log(list[j]);
+    }
   }
+
+  // Produces the same result as the raw loop above.
+  logArray(drinks);
+
+  // Loops from 0 to 4.
+  for (var i = 0; i < 5; i++) {
+    // Prints a message and the current i value to the console.
+    console.log("I am " + i);
+  }
+
+
+
+  // This is our starting myFarm array.
+  var myFarm = ["chickens", "pigs", "cows", "horses", "ostriches"];
+
+  // Creating a variable to hold our array length.
+  var arrayLength = myFarm.length;
+
+  // Looping through our myFarm array.
+  for (var j = 0; j < arrayLength; j++) {
+
+    // Console out the farm animal in the current index.
+    console.log(myFarm[j]);
+
+    // If the first character in the current animal is "c" or "o", alert the following message.
+    if (myFarm[j].charAt(0) === "c" || myFarm[j].charAt(0) === "o") {
+      console.log("Starts with a c or an o!");
+    }
+
+  }
+
+//   another way:
+for (var i = 0; i < arrayLength; i++ ) {
+    if(myFarm[i][0] === "c" || myFarm[i][0] === "o") {
+        console.log(myFarm[i] + " Starts with a c or an o!");
+    }
+}
