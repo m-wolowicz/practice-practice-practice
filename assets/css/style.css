@@ -1,0 +1,12 @@
+.jumbotron-fluid {
+    margin-top: 54px;
+}
+
+
+#canvas {
+	display: block;
+	z-index: -1;
+    background-color: black;
+    height: 200px;
+    width: 800px;
+}

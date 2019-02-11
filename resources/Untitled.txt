@@ -1,0 +1,64 @@
+Open terminal / console. Then walk and explain to students what each of the following commands does.
+
+cd (changes directory)
+
+cd ~ (changes to home directory)
+
+cd .. (moves up one directory)
+
+ls (lists files in folder)
+
+pwd (shows current directory)
+
+mkdir <FOLDERNAME> (creates new directory)
+
+touch <FILENAME> (creates a file)
+
+rm <FILENAME> (deletes file)
+
+rm -r <FOLDERNAME> (deletes a folder, note the -r)
+
+open . (opens the current folder. MAC SPECIFIC)
+
+open <FILENAME> (opens a specific file. MAC SPECIFIC)
+
+explorer <FILENAME> (opens the specific file. BASH SPECIFIC)
+
+explorer . (opens the current folder. BASH SPECIFIC)
+
+Tabbing
+
+Pressing the tab key after typing "cd fol" will autocomplete to "cd foldername", assuming foldername is unique. (Folder/Filename Autocomplete - Show students what happens when there are unique and multiple options based on what they typed.)
+
+git clone https://github.com/boyrajat/katenna.git
+
+cd katenna
+
+git branch YOURNAME
+
+git checkout YOURNAME
+
+--- Now you edit your code ---
+
+--- When you are done ---
+
+git add .
+
+git commit -m 'Notes: Be specific on what you did'
+
+git push origin YOURNAME
+
+--- Next time you want to edit anything ---
+
+git pull origin master 
+
+git checkout YOURNAME
+
+
+--- REPEAT AS ABOVE ---
+
+
+
+
+
+GitHub, one free deployed site:
