@@ -95,7 +95,7 @@
 	<!-- PAGE CONTENT -->
 	<div class="container-fluid">
 		<div class="container">
-			<h1>Heading 1: Block Level Elements</h1>
+			<h1 id="H1">Heading 1: Block Level Elements</h1>
 			<p style="color: rgba(0, 0, 0, .87);">Paragraphs, H1 through H6 address, article, aside, blockquote, canvas, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, header, hr, li, main, nav, noscript, ol, p, pre, section, table, tfoot, ul, and video are all block level elements. Vestibulum facilisis nibh non pellentesque mollis. Ut a odio orci. Donec egestas vestibulum lectus, et pulvinar velit sagittis sed. Suspendisse dictum est sed accumsan efficitur. Cras in eros et ipsum lacinia scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue lorem eros, sed gravida ante maximus eu. Fusce et rutrum urna, vel dapibus velit. Nunc sed aliquam nisi. Integer diam felis, scelerisque sed vestibulum sed, ornare eu eros. In hac habitasse platea dictumst. Morbi vehicula nisl nec sagittis accumsan. Maecenas condimentum dapibus varius. Cras sollicitudin, quam feugiat venenatis vestibulum, turpis erat venenatis nulla, sed consequat ex diam a libero.</p>
 			<h2>Heading 2</h2>
 			<p title="I'm a tooltip">Phasellus ultricies pellentesque condimentum. Aenean ullamcorper tempus felis, at malesuada est gravida in. Nullam gravida molestie augue at pulvinar. Sed finibus et felis sed posuere. Aenean consequat luctus mi viverra interdum. Duis non eros metus. Proin tortor diam, imperdiet nec ligula ut, luctus semper sem. Vestibulum sed elit sem. Phasellus vel risus in nulla imperdiet ultricies ac sit amet nibh. Duis cursus felis vel lectus condimentum, quis maximus sem fermentum. Sed molestie orci ac quam congue tincidunt quis id diam. Mauris consectetur magna ac rutrum maximus. Vivamus quis semper lorem. Duis congue lectus nec tortor vulputate consectetur. Sed ac turpis et magna scelerisque pulvinar in ac tellus.</p>
@@ -119,11 +119,38 @@
 			USA
 			</address>
 			<br>
-			<h6 style="color: rgba(0, 0, 0, .38);">What follows is an article block element</h6>
-			<article>
-				<h1>The article's title is here inside H1 element</h1>
-				<p>This is the article's conten inside a p element. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla dui, ultricies ac diam eu, convallis posuere erat. Curabitur scelerisque risus id quam aliquet pharetra. Nullam ut enim tellus. Pellentesque eu odio dolor. Etiam sodales tempus posuere. Duis vel interdum purus. Suspendisse non elit mollis, aliquam dolor id, ullamcorper neque. Etiam consequat in dui dignissim semper. Sed dictum ex libero, sit amet vehicula velit iaculis et.</p>
-			</article>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a main, article and header block elements</h6>
+			<main>
+				<h1>The main element</h1>
+				<p>The main tag specifies the main content of a document. The content inside the main element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms. Note: There must not be more than one main element in a document. The main element must NOT be a descendant of an article, aside, footer, header, or nav element.</p>
+
+				<article>
+					<header>
+						<h1>Most important heading here. The article's title is here inside H1 element</h1>
+						<h3>Less important heading here</h3>
+						<p>Some additional information here</p>
+					</header>
+					<p>This is the article's conten inside a p element. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nulla dui, ultricies ac diam eu, convallis posuere erat. Curabitur scelerisque risus id quam aliquet pharetra. Nullam ut enim tellus. Pellentesque eu odio dolor. Etiam sodales tempus posuere. Duis vel interdum purus. Suspendisse non elit mollis, aliquam dolor id, ullamcorper neque. Etiam consequat in dui dignissim semper. Sed dictum ex libero, sit amet vehicula velit iaculis et.</p>
+				</article>
+
+				<article>
+					<h1>Google Chrome</h1>
+					<p>Google Chrome is a free, open-source web browser developed by Google,
+				released in 2008.</p>
+				</article>
+			
+				<article>
+					<h1>Internet Explorer</h1>
+					<p>Internet Explorer is a free web browser from Microsoft, released in 1995.</p>
+				</article>
+			
+				<article>
+					<h1>Mozilla Firefox</h1>
+					<p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+				</article>
+
+			</main>
+			
 			<br>
 			<h6 style="color: rgba(0, 0, 0, .38);">What follows is an aside block element</h6>
 			<aside>
@@ -138,125 +165,172 @@
 			<br>
 			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a canvas block element</h6>
 			<canvas id="canvas"></canvas>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
-			<p>Here is a quote from WWF's website:</p>
-			<a href="#clickMeBtn">Jump to Chapter 4</a>
-
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a description list, with dt defines terms/namesblock element, and dd tag is used to describe a term/name in a description list.</h6>
+			<dl>
+				<dt>Coffee</dt>
+				<dd>Black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>White cold drink</dd>
+			</dl>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a div block element</h6>
+			<div style="background-color:lightblue">
+				<p>The div tag defines a division or a section in an HTML document. The div element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.</p>
+			</div>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a form, fieldset, and legend block elements</h6>
+			<form action="/action_page.php" method="get" >
+				<fieldset>
+					<legend>This is a legend block element, inside a fieldset block element, inside a form block element.</legend>
+				</fieldset>
+			</form>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a figure and a figcaption block element</h6>
+			<figure>
+				<figcaption>This is a figcaption element. The figcaption tag defines a caption for a figure element and it can be placed as the first or last child of the figure element.</figcaption>
+			</figure>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a footer block element</h6>
+			<footer>
+				<p>Copyright 2019. This is a footer element.</p>
+			</footer>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is an hr block element</h6>
+			<hr>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is an ordered list (ol), an li (list item), and a ul (unordered list) block elements</h6>
+			<ol>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
 			
-			
-
-			<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
-
-			<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-
-			<bdo dir="rtl">This text will be written from right to left</bdo>
-
-
-			<b> - Bold text</b>
-			<strong> - Important text</strong>
-			<i> - Italic text</i>
-			<em> - Emphasized text</em>
-			<mark> - Marked text</mark>
-			<small> - Small text</small>
-			<del> - Deleted text</del>
-			<ins> - Inserted text</ins>
-			<sub> - Subscript text</sub>
-			<sup> - Superscript text</sup>
+			<ul>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a nav block element that tag defines a set of navigation links.</h6>
+			<nav>
+				<a href="/html/">HTML</a> |
+				<a href="/css/">CSS</a> |
+				<a href="/js/">JavaScript</a> |
+				<a href="/jquery/">jQuery</a>
+			</nav>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a noscript block element</h6>
+			<noscript>Your browser does not support JavaScript!</noscript>
+			<p>The noscript tag defines an alternate content for users that have disabled scripts in their browser or have a browser that doesn't support script. The noscript element can be used in both head and body. When used inside the head element: noscript must contain only link, style, and meta elements. The content inside the noscript element will be displayed if scripts are not supported, or are disabled in the user's browser.</p>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a p block element</h6>
+			<p>Mauris convallis porta convallis. Nam eget nibh consequat, aliquam tortor eget, ornare augue. Praesent at dolor molestie, facilisis turpis vel, gravida est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam vitae consectetur lectus. Nunc id felis facilisis orci condimentum ullamcorper. Aenean a magna sed nunc ultricies facilisis nec tempus libero. Maecenas pharetra dui in commodo rhoncus. Etiam ac aliquet risus, a dictum mauris. Duis at varius enim. Suspendisse vitae risus nec odio molestie sollicitudin. Fusce venenatis fermentum ultricies.</p>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a pre block element</h6>
 			<pre>
-			My Bonnie lies over the ocean.
-
-			My Bonnie lies over the sea.
-
-			My Bonnie lies over the ocean.
-
-			Oh, bring back my Bonnie to me.
+			Text in a pre element
+			is displayed in a fixed-width
+			font, and it preserves
+			both      spaces and
+			line breaks.
+			The pre tag defines preformatted text.
+			Text in a pre element is displayed in a fixed-width font (usually Courier),
+			and it preserves both spaces and line breaks. Use the pre element when displaying
+			text with unusual formatting, or some sort of computer code.
 			</pre>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a section block element</h6>
+			<section>The section tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.</section>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a table, tr table rows, th, table headers, table body, table footers, and table caption block element</h6>
+			<table>
+				<caption>Table Caption</caption>
+				<thead>
+					<tr>
+						<th>Month</th>
+						<th>Savings</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>January</td>
+						<td>$100</td>
+					</tr>
+					<tr>
+						<td>February</td>
+						<td>$80</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>Sum</td>
+						<td>$180</td>
+					</tr>
+				</tfoot>
+			</table>
+			<br>
+			<h6 style="color: rgba(0, 0, 0, .38);">What follows is a video block element</h6>
+			<video width="320" height="240" controls>
+					<source src="movie.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+					Your browser does not support the video tag.
+				  </video>
+				  <br><br><br>
+		</div>
+
+		<div class="container">
+			<h1>Heading 1: Inline Elements</h1>
+			<p style="color: rgba(0, 0, 0, .87);"> An inline element does not start on a new line and only takes up as much width as necessary. All the inline elements are a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, output, q, samp, script, select, small, span, strong, sub, sup, textarea, time, tt, and var.</p>
+			<br>
+			<hr>
+			<br>
+			<p>Inside this p block level element, you can find an a element.  This is an a link that takes you back to the first <a href="#H1">H1 Element</a></p>
+			<p>Inside this p block level element, you can find an abbr element. The abbr tag defines an abbreviation or an acronym, like "Mr.", "Dec.", "ASAP", "ATM". An abbreviation and an acronym are both shortened versions of something else. Both are often represented as a series of letters. Marking up abbreviations can give useful information to browsers, translation systems and search-engines. The global title attribute can be used in the abbr tag to show the full version of the abbreviation/acronym when you mouse over the abbr element. Example: The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+			<p>Inside this p block level element, you can find an acronym element.  The acronym tag is not supported in HTML5. Use the abbr tag instead. The acronym tag defines an acronym. An acronym must spell out another word. For example: NASA, ASAP, GUI. Marking up acronyms can give useful information to browsers, translation systems and search-engines. Example: Can I get this <acronym title="as soon as possible">ASAP</acronym>?</p>
+			<p>Inside this p block level element, you can find a b element. The b tag specifies bold text. This is normal text - <b>and this is bold text</b>.</p>
+			<p>Inside this p block level element, you can find a bdo element, bdo stands for Bi-Directional Override. The bdo tag is used to override the current text direction. Example: <bdo dir="rtl">This text will go right-to-left.</bdo></p>
+			<p>Inside this p block level element, you can find a big element. The big tag is not supported in HTML5. Use CSS instead. The big tag defines bigger text. Example: <big>This is Bigger text</big></p>
+			<p>Inside this p block level element, you can find a br element. The br tag inserts a single line break. The br tag is an empty tag which means that it has no end tag. The br tag is useful for writing addresses or poems. Use the br tag to enter line breaks, not to separate paragraphs. Example: This text contains<br>a line break.</p>
+			<p>Inside this p block level element, you can find a button element. The button tag defines a clickable button. Inside a button element you can put content, like text or images. This is the difference between this element and buttons created with the input element. Always specify the type attribute for a button element. Different browsers use different default types for the button element. Buttons are often styled with CSS. If you use the button element in an HTML form, different browsers may submit different values. Use input to create buttons in an HTML form. Example: <button type="button">Click Me!</button></p>
+			<p>Inside this p block level element, you can find a cite element. The cite tag defines the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.). A person's name is not the title of a work. Example: <cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+			<p>Inside this p block level element, you can find a code element. The code tag is a phrase tag. It defines a piece of computer code. This tag is not deprecated, but it is possible to achieve richer effect with CSS. Example: <code>A piece of computer code</code></p>
+			<p>Inside this p block level element, you can find a dfn element. The dfn tag represents the defining instance of a term in HTML. The defining instance is often the first use of a term in a document. The nearest parent of the dfn tag must also contain the definition/explanation for the term inside dfn. The term inside the dfn tag can be any of the following: The content of the dfn element (without a title attribute): <dfn>HTML</dfn> is the standard markup language for creating web pages. The title attribute of the dfn tag: <dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating web pages. The title attribute of an abbr tag inside the dfn element: <dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> is the standard markup language for creating web pages. You can also add an id attribute to the dfn element. Then, whenever a term is used, it can refer back to the definition using an a tag: <dfn id="html-def">HTML</dfn> is the standard markup language for creating web pages. This is some text... Learn <a href="#html-def">HTML</a> now.</p>
+			<p>Inside this p block level element, you can find a em element. The em tag is a phrase tag. It renders as emphasized text. This tag is not deprecated, but it is possible to achieve richer effect with CSS. Example: <em>Emphasized text</em></p>
+			<p>Inside this p block level element, you can find a i element. The i tag defines a part of text in an alternate voice or mood. The content of the i tag is usually displayed in italic. The i tag can be used to indicate a technical term, a phrase from another language, a thought, or a ship name, etc. Example: He named his car <i>The lightning</i>, because it was very fast.</p>
+			<p>Inside this p block level element, you can find a img element. The img tag defines an image in an HTML page. The img tag has two required attributes: src and alt. Images are not technically inserted into an HTML page, images are linked to HTML pages. The img tag creates a holding space for the referenced image. To link an image to another document, simply nest the img tag inside a tags. Example: <img src="assets/img/KatennaBotRGB.svg" alt="Katenna Bot" width="100"></p>
+			<p>Inside this p block level element, you can find a input element. The input tag specifies an input field where the user can enter data. These elements are used within a form element to declare input controls that allow users to input data. An input field can vary in many ways, depending on the type attribute. Example: First name: <input type="text" name="fname"></p>
+			<p>Inside this p block level element, you can find a label element. The label tag defines a label for a button, input, meter, output, progress, select, or textarea element. The label element does not render as anything special for the user. However, it provides a usability improvement for mouse users, because if the user clicks on the text within the label element, it toggles the control. The for attribute of the label tag should be equal to the id attribute of the related element to bind them together.Example: <label for="male">This is a label for Male </label> <input type="radio" name="gender" id="male" value="male"><label for="female"> This is a label for Female</label> <input type="radio" name="gender" id="female" value="female"></p>
+			<p>Inside this p block level element, you can find a map element. </p>
+			<p>Inside this p block level element, you can find a object element. </p>
+			<p>Inside this p block level element, you can find a output element. </p>
+			<p>Inside this p block level element, you can find a q element. </p>
+			<p>Inside this p block level element, you can find a samp element. </p>
+			<p>Inside this p block level element, you can find a script element. </p>
+			<p>Inside this p block level element, you can find a select element. </p>
+			<p>Inside this p block level element, you can find a small element. </p>
+			<p>Inside this p block level element, you can find a span element. </p>
+			<p>Inside this p block level element, you can find a strong element. </p>
+			<p>Inside this p block level element, you can find a sub element. </p>
+			<p>Inside this p block level element, you can find a sup element. </p>
+			<p>Inside this p block level element, you can find a textarea element. </p>
+			<p>Inside this p block level element, you can find a  element. </p>
+			<p>Inside this p block level element, you can find a time element. </p>
+			<p>Inside this p block level element, you can find a tt element. </p>
+			<p>Inside this p block level element, you can find a var element. </p>
+
+
 			<a href="https://www.google.com" target="_blank">This is a link</a>
 			<br>
 			<div class="material-icons">favorite</div>
 			<br>
 			<!-- PLAY WITH IMAGE MAP -->
 			<!-- PLAY WITH <PICTURE></PICTURE> -->
-			<img src="assets/img/KatennaBotRGB.svg" alt="Katenna Bot" width="100">
-			<br>
-			<ul>
-			<li>This</li>
-			<li>Is</li>
-			<li>A</li>
-			<li>List</li>
-			</ul>
-			<ol>
-			<li>Coffee</li>
-			<li>Tea</li>
-			<li>Milk</li>
-			</ol>
-			<dl>
-			<dt>Coffee</dt>
-			<dd>- black hot drink</dd>
-			<dt>Milk</dt>
-			<dd>- white cold drink</dd>
-			</dl>
-			<table>
-			<thead>
-			<tr>
-			<th>Month</th>
-			<th>Savings</th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-			<td>January</td>
-			<td>$100</td>
-			</tr>
-			<tr>
-			<td>February</td>
-			<td>$80</td>
-			</tr>
-			</tbody>
-			<tfoot>
-			<tr>
-			<td>Sum</td>
-			<td>$180</td>
-			</tr>
-			</tfoot>
-			</table>
-			<hr>
-			<button id="clickMeBtn">Click me</button>
-			<br>
-			<br>
-			<br>
-			<hr>
-			<aside>aside</aside>
-			<div>div</div>
-			<fieldset>fieldset</fieldset>
-			<figure>figuere<figcaption>figcaption</figcaption></figure>
-			<footer>footer</footer>
-			<form>form</form>
-			<header>header</header>
-			<main>main</main>
-			<nav>nav</nav>
-			<noscript>noscript</noscript>
-			<output>output</output>
-			<section>section</section>
-			<video>Insert Video Here</video>
-		</div>
-	</div>
 
+			<br>
+		</div>
+		<br><br><br>
+	</div>
 
 <!-- JQUERY POPPER AND JS FOR BOOTSTRAP -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
