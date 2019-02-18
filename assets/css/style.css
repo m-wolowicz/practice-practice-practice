@@ -10,3 +10,14 @@
     height: 200px;
     width: 800px;
 }
+
+#blockCont {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#inlineCont {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

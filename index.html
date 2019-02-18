@@ -93,7 +93,7 @@
 	</div>
 
 	<!-- PAGE CONTENT -->
-	<div class="container-fluid">
+	<div class="container-fluid" id="blockCont">
 		<div class="container">
 			<h1 id="H1">Heading 1: Block Level Elements</h1>
 			<p style="color: rgba(0, 0, 0, .87);">Paragraphs, H1 through H6 address, article, aside, blockquote, canvas, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, header, hr, li, main, nav, noscript, ol, p, pre, section, table, tfoot, ul, and video are all block level elements. Vestibulum facilisis nibh non pellentesque mollis. Ut a odio orci. Donec egestas vestibulum lectus, et pulvinar velit sagittis sed. Suspendisse dictum est sed accumsan efficitur. Cras in eros et ipsum lacinia scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue lorem eros, sed gravida ante maximus eu. Fusce et rutrum urna, vel dapibus velit. Nunc sed aliquam nisi. Integer diam felis, scelerisque sed vestibulum sed, ornare eu eros. In hac habitasse platea dictumst. Morbi vehicula nisl nec sagittis accumsan. Maecenas condimentum dapibus varius. Cras sollicitudin, quam feugiat venenatis vestibulum, turpis erat venenatis nulla, sed consequat ex diam a libero.</p>
@@ -278,7 +278,10 @@
 				  </video>
 				  <br><br><br>
 		</div>
+	</div>
 
+
+	<div class="container-fluid" id="inlineCont">
 		<div class="container">
 			<h1>Heading 1: Inline Elements</h1>
 			<p style="color: rgba(0, 0, 0, .87);"> An inline element does not start on a new line and only takes up as much width as necessary. All the inline elements are a, abbr, acronym, b, bdo, big, br, button, cite, code, dfn, em, i, img, input, kbd, label, map, object, output, q, samp, script, select, small, span, strong, sub, sup, textarea, time, tt, and var.</p>
@@ -311,7 +314,7 @@
 					<input type="number" id="a" value="50">
 					<input type="number" id="b" value="50">
 					=<output name="x" for="a b"></output>
-				  </form></p>
+					</form></p>
 			<p>Inside this p block level element, you can find a q element. The q tag defines a short quotation. Browsers normally insert quotation marks around the quotation. Example: WWF's goal is to: <q>Build a future where people live in harmony with nature.</q> We hope they succeed.</p>
 			<p>Inside this p block level element, you can find a samp element. The samp tag is a phrase tag. It defines sample output from a computer program. This tag is not deprecated, but it is possible to achieve richer effect with CSS. Example: <samp>Sample output from a computer program</samp></p>
 			<p>Inside this p block level element, you can find a script element. The script tag is used to define a client-side script (JavaScript). The script element either contains scripting statements, or it points to an external script file through the src attribute. Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.  If the "src" attribute is present, the script element must be empty. Also look at the noscript element for users that have disabled scripts in their browser, or have a browser that doesn't support client-side scripting. There are several ways an external script can be executed: If async="async": The script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing). If async is not present and defer="defer": The script is executed when the page has finished parsing. If neither async or defer is present: The script is fetched and executed immediately, before the browser continues parsing the page</p>
@@ -320,7 +323,7 @@
 					<option value="saab">Saab</option>
 					<option value="mercedes">Mercedes</option>
 					<option value="audi">Audi</option>
-				  </select></p>
+					</select></p>
 			<p>Inside this p block level element, you can find a small element. The small tag defines smaller text (and other side comments). Example: W3Schools.com - the world's largest web development site.<small> Copyright 1999-2050 by Refsnes Data</small></p>
 			<p>Inside this p block level element, you can find a span element. The span tag is used to group inline-elements in a document. The span tag provides no visual change by itself. The span tag provides a way to add a hook to a part of a text or a part of a document. Example: My mother has <span style="color:blue">blue</span> eyes.</p>
 			<p>Inside this p block level element, you can find a strong element. The strong tag is a phrase tag. It defines important text. This tag is not deprecated, but it is possible to achieve richer effect with CSS. Example: <strong>Strong text</strong></p>
@@ -330,13 +333,9 @@
 			<p>Inside this p block level element, you can find a time element. The time tag defines a human-readable date/time. This element can also be used to encode dates and times in a machine-readable way so that user agents can offer to add birthday reminders or scheduled events to the user's calendar, and search engines can produce smarter search results. The time element does not render as anything special in any of the major browsers. Examples: We open at <time>10:00</time> every morning. I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
 			<p>Inside this p block level element, you can find a tt element. The tt tag is not supported in HTML5. If tt was used for marking up keyboard input, consider the kbd element; for variables, consider the var element; for computer code, consider the code element; and for computer output, consider the samp element, or use CSS instead. The tt tag defines teletype text. Example: <tt>Teletype text</tt></p>
 			<p>Inside this p block level element, you can find a var element. The var tag is a phrase tag. It defines a variable. This tag is not deprecated, but it is possible to achieve richer effect with CSS.  Example: <var>Variable</var></p>
-			<br>
 			<div class="material-icons">favorite</div>
-			<br>
 			<!-- PLAY WITH <PICTURE></PICTURE> -->
-			<br>
 		</div>
-		<br><br><br>
 	</div>
 
 <!-- JQUERY POPPER AND JS FOR BOOTSTRAP -->
