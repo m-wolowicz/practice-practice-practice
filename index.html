@@ -301,32 +301,39 @@
 			<p>Inside this p block level element, you can find a img element. The img tag defines an image in an HTML page. The img tag has two required attributes: src and alt. Images are not technically inserted into an HTML page, images are linked to HTML pages. The img tag creates a holding space for the referenced image. To link an image to another document, simply nest the img tag inside a tags. Example: <img src="assets/img/KatennaBotRGB.svg" alt="Katenna Bot" width="100"></p>
 			<p>Inside this p block level element, you can find a input element. The input tag specifies an input field where the user can enter data. These elements are used within a form element to declare input controls that allow users to input data. An input field can vary in many ways, depending on the type attribute. Example: First name: <input type="text" name="fname"></p>
 			<p>Inside this p block level element, you can find a label element. The label tag defines a label for a button, input, meter, output, progress, select, or textarea element. The label element does not render as anything special for the user. However, it provides a usability improvement for mouse users, because if the user clicks on the text within the label element, it toggles the control. The for attribute of the label tag should be equal to the id attribute of the related element to bind them together.Example: <label for="male">This is a label for Male </label> <input type="radio" name="gender" id="male" value="male"><label for="female"> This is a label for Female</label> <input type="radio" name="gender" id="female" value="female"></p>
-			<p>Inside this p block level element, you can find a map element. </p>
-			<p>Inside this p block level element, you can find a object element. </p>
-			<p>Inside this p block level element, you can find a output element. </p>
-			<p>Inside this p block level element, you can find a q element. </p>
-			<p>Inside this p block level element, you can find a samp element. </p>
-			<p>Inside this p block level element, you can find a script element. </p>
-			<p>Inside this p block level element, you can find a select element. </p>
-			<p>Inside this p block level element, you can find a small element. </p>
-			<p>Inside this p block level element, you can find a span element. </p>
-			<p>Inside this p block level element, you can find a strong element. </p>
-			<p>Inside this p block level element, you can find a sub element. </p>
-			<p>Inside this p block level element, you can find a sup element. </p>
-			<p>Inside this p block level element, you can find a textarea element. </p>
-			<p>Inside this p block level element, you can find a  element. </p>
-			<p>Inside this p block level element, you can find a time element. </p>
-			<p>Inside this p block level element, you can find a tt element. </p>
-			<p>Inside this p block level element, you can find a var element. </p>
-
-
-			<a href="https://www.google.com" target="_blank">This is a link</a>
+			<p>Inside this p block level element, you can find a map (image map) element.
+				<img src="assets/img/map1-01.svg" width="500" height="500" alt="Latin America" usemap="#vzlamap">
+				<map name="vzlamap">
+					<area href="assets/img/map2-01.svg" alt="Venezuela" shape="rect" coords="189,68,255,132">
+				</map></p>
+			<p>Inside this p block level element, you can find an object element. The object tag defines an embedded object within an HTML document. Use this element to embed multimedia (like audio, video, Java applets, ActiveX, PDF, and Flash) in your web pages.  You can also use the object tag to embed another webpage into your HTML document.  You can use the param tag to pass parameters to plugins that have been embedded with the object tag. An object element must appear inside the body element. The text between the object and /object is an alternate text, for browsers that do not support this tag. For images use the img tag instead of the object tag. At least one of the "data" or "type" attribute MUST be defined. Example: <object width="200" height="200" data="assets/img/clouds.swf"></object></p>
+			<p><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Inside this p block level element, you can find aN output element. The output tag represents the result of a calculation (like one performed by a script). Example: 
+					<input type="number" id="a" value="50">
+					<input type="number" id="b" value="50">
+					=<output name="x" for="a b"></output>
+				  </form></p>
+			<p>Inside this p block level element, you can find a q element. The q tag defines a short quotation. Browsers normally insert quotation marks around the quotation. Example: WWF's goal is to: <q>Build a future where people live in harmony with nature.</q> We hope they succeed.</p>
+			<p>Inside this p block level element, you can find a samp element. The samp tag is a phrase tag. It defines sample output from a computer program. This tag is not deprecated, but it is possible to achieve richer effect with CSS. Example: <samp>Sample output from a computer program</samp></p>
+			<p>Inside this p block level element, you can find a script element. The script tag is used to define a client-side script (JavaScript). The script element either contains scripting statements, or it points to an external script file through the src attribute. Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.  If the "src" attribute is present, the script element must be empty. Also look at the noscript element for users that have disabled scripts in their browser, or have a browser that doesn't support client-side scripting. There are several ways an external script can be executed: If async="async": The script is executed asynchronously with the rest of the page (the script will be executed while the page continues the parsing). If async is not present and defer="defer": The script is executed when the page has finished parsing. If neither async or defer is present: The script is fetched and executed immediately, before the browser continues parsing the page</p>
+			<p>Inside this p block level element, you can find a select element. The select element is used to create a drop-down list. The option tags inside the select element define the available options in the list. Example: <select>
+					<option value="volvo">Volvo</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				  </select></p>
+			<p>Inside this p block level element, you can find a small element. The small tag defines smaller text (and other side comments). Example: W3Schools.com - the world's largest web development site.<small> Copyright 1999-2050 by Refsnes Data</small></p>
+			<p>Inside this p block level element, you can find a span element. The span tag is used to group inline-elements in a document. The span tag provides no visual change by itself. The span tag provides a way to add a hook to a part of a text or a part of a document. Example: My mother has <span style="color:blue">blue</span> eyes.</p>
+			<p>Inside this p block level element, you can find a strong element. The strong tag is a phrase tag. It defines important text. This tag is not deprecated, but it is possible to achieve richer effect with CSS. Example: <strong>Strong text</strong></p>
+			<p>Inside this p block level element, you can find a sub element. The sub tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O. Example: This text contains <sub>subscript</sub> text.</p>
+			<p>Inside this p block level element, you can find a sup element. The sup tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]. Example: This text contains <sup>superscript</sup> text.</p>
+			<p>Inside this p block level element, you can find a textarea element. The textarea tag defines a multi-line text input control. A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier). The size of a text area can be specified by the cols and rows attributes, or even better; through CSS' height and width properties. Example: <textarea rows="1" cols="50">At w3schools.com you will learn how to make a website.</textarea></p>
+			<p>Inside this p block level element, you can find a time element. The time tag defines a human-readable date/time. This element can also be used to encode dates and times in a machine-readable way so that user agents can offer to add birthday reminders or scheduled events to the user's calendar, and search engines can produce smarter search results. The time element does not render as anything special in any of the major browsers. Examples: We open at <time>10:00</time> every morning. I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+			<p>Inside this p block level element, you can find a tt element. The tt tag is not supported in HTML5. If tt was used for marking up keyboard input, consider the kbd element; for variables, consider the var element; for computer code, consider the code element; and for computer output, consider the samp element, or use CSS instead. The tt tag defines teletype text. Example: <tt>Teletype text</tt></p>
+			<p>Inside this p block level element, you can find a var element. The var tag is a phrase tag. It defines a variable. This tag is not deprecated, but it is possible to achieve richer effect with CSS.  Example: <var>Variable</var></p>
 			<br>
 			<div class="material-icons">favorite</div>
 			<br>
-			<!-- PLAY WITH IMAGE MAP -->
 			<!-- PLAY WITH <PICTURE></PICTURE> -->
-
 			<br>
 		</div>
 		<br><br><br>
